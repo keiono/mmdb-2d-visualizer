@@ -1,0 +1,39 @@
+body {
+    font: 14px helvetica neue, helvetica, arial, sans-serif;
+}
+
+.title {
+    position: fixed;
+    top: 1em;
+    left: 1em;
+    font-size: 24px;
+    color: #888888;
+    z-index: 999;
+}
+
+.hud {
+    position: fixed;
+    top: 1em;
+    right: 1em;
+    height: 40%;
+    width: 30%;
+    background-color: rgba(100, 100, 100, 0.8);
+    font-size: 18px;
+    color: white;
+    padding: 1em;
+    z-index: 999;
+}
+
+#cy {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #ffffff;
+}
+
+#node-selected, #edge-selected {
+    color: white;
+    font-weight: 300;
+}
